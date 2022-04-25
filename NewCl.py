@@ -1,4 +1,3 @@
-# Decompile by : 'wasi
 import os,sys
 try: import requests
 except ModuleNotFoundError:print("WASI Install Module requests");os.system("python -m pip install requests &> /dev/wasi")
