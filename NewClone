@@ -1,13 +1,13 @@
-# Decompile by : 'Rydah
+# Decompile by : 'wasi
 import os,sys
 try: import requests
-except ModuleNotFoundError:print("WASI Install Module requests");os.system("python -m pip install requests &> /dev/Rydah")
+except ModuleNotFoundError:print("WASI Install Module requests");os.system("python -m pip install requests &> /dev/wasi")
 try: import bs4
-except ModuleNotFoundError:print("WASI Install Module bs4");os.system("python -m pip install bs4 &> /dev/Rydah")
+except ModuleNotFoundError:print("WASI Install Module bs4");os.system("python -m pip install bs4 &> /dev/wasi")
 try: import mechanize
-except ModuleNotFoundError:print("WASI Install Module mechanize");os.system("python -m pip install mechanize &> /dev/Rydah")
+except ModuleNotFoundError:print("WASI Install Module mechanize");os.system("python -m pip install mechanize &> /dev/wasi")
 try: import gTTS
-except ModuleNotFoundError: os.system("python -m pip install gTTS &> /dev/Rydah")
+except ModuleNotFoundError: os.system("python -m pip install gTTS &> /dev/wasi")
 ## import in
 import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,requests
 import os, time, uuid, requests
@@ -106,7 +106,7 @@ def main_apv():
         myid=uuid.uuid4().hex[:10].upper()
         print ("          YOUR KEY : "+ak+myid)
         print ("[*]--------------------------------------------------------------")
-        kok=open('/data/data/com.termux/files/usr/bin/.rydah-cov', 'R')
+        kok=open('/data/data/com.termux/files/usr/bin/.wasi-cov', 'w')
         kok.close()
         print ("")
         print ("")
