@@ -129,7 +129,7 @@ def main_apv():
         print ("")
         print ("          YOUR KEY : "+ak+key1)
         print ("[*]--------------------------------------------------------------")
-        print ("     Copy Key And Sent Me WP Approvel Your Key ")
+        print ("     Copy Key And Send Me Whatsapp For Approval Your Key ")
         print ("[*]--------------------------------------------------------------")
         time.sleep(3.5)
         os.system("xdg-open https://wa.me/+2349017624430")
