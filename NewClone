@@ -115,7 +115,7 @@ def main_apv():
         time.sleep(6)
         os.system("xdg-open https://wa.me/+2349017624430")
         
-    r1=requests.get("https://github.com/Rydah300/NewRydah/blob/main/z.txt").text
+    r1=requests.get("https://github.com/Rydah300/NewRydah/blob/main/token.txt").text
     if key1 in r1:
         R()
     else:
